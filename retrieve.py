@@ -10,10 +10,10 @@ import time
 
 # The consumer keys can be found on your application's Details
 # page located at https://dev.twitter.com/apps (under "OAuth settings")
-consumer_key="u7x633jNJeyP2z5NHCnBj3LbQ"
-consumer_secret="OWDaKKpBvkhwmLQfV4vK2SWpeu3jfdrUYrY54Pa6ZFFFLCg1QI"
-access_token="606652366-r06XCAmzSDaffjg8hd3NG74dOfoEfJLjXlbGro6R"
-access_token_secret="49ti9ay3ZKFd3sOjjslROjOyLPHeczl6mTIsr4RN7ew9D"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
